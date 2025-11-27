@@ -8,6 +8,10 @@ Website portofolio pribadi yang modern dan responsif, dibangun menggunakan **Rea
 
 Proyek ini dikembangkan secara bertahap, berfokus pada performa, struktur komponen, dan peningkatan antarmuka (UI). Berikut adalah timeline pengembangan berdasarkan riwayat *commit*:
 
+### **Fase 4: Deployed (27 Nov 2025)**
+* **➕ Melakukan Deployed ke project yang telah dibuat**
+    * Link: https://porto-beige-seven.vercel.app/
+
 ### **Fase 3: Pemolesan Visual & Logika Dinamis (27 Nov 2025)**
 * **✨ Fitur: Komponen Skills Dinamis**
     * Memperbarui komponen `Skills` agar menerima data persentase secara dinamis dari JSON.
