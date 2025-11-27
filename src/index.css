@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-950 text-gray-200 font-sans;
+}
+
+@layer utilities {
+  /* Efek Teks Neon */
+  .text-neon-cyan {
+    color: #22d3ee; 
+    text-shadow: 0 0 10px #06b6d4, 0 0 20px #06b6d4;
+  }
+  .text-neon-purple {
+    color: #e879f9; 
+    text-shadow: 0 0 10px #c026d3, 0 0 20px #c026d3;
+  }
+  .text-neon-green {
+    color: #4ade80; 
+    text-shadow: 0 0 10px #16a34a, 0 0 20px #16a34a;
+  }
+  .text-neon-white {
+    color: #f3f4f6;
+    text-shadow: 0 0 10px #ffffff80, 0 0 20px #ffffff40;
+  }
+
+  .box-neon-cyan {
+    @apply border-2 border-cyan-500/80;
+    box-shadow: 0 0 20px -5px #06b6d4, inset 0 0 20px -10px #06b6d4;
+    backdrop-filter: blur(5px);
+    background-color: rgba(17, 24, 39, 0.7);
+  }
+
+  .box-neon-purple {
+    @apply border-2 border-fuchsia-500/80;
+    box-shadow: 0 0 20px -5px #c026d3, inset 0 0 20px -10px #c026d3;
+    backdrop-filter: blur(5px);
+    background-color: rgba(17, 24, 39, 0.7);
+  }
+
+  .box-neon-green {
+    @apply border-2 border-green-500/80;
+    box-shadow: 0 0 20px -5px #16a34a, inset 0 0 20px -10px #16a34a;
+    backdrop-filter: blur(5px);
+    background-color: rgba(17, 24, 39, 0.7);
+  }
+}

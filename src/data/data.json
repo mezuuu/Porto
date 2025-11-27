@@ -1,0 +1,92 @@
+{
+  "id": 1,
+  "slug": "Muhammad-Akbar-Velayati-L200230225",
+
+  "profil": {
+    "name": "Muhammad Akbar Velayati",
+    "nim": "L200230225",
+    "prodi": "Teknik Informatika",
+    "angkatan": "2023",
+    "photo_url": "https://github.com/tif1336/single-page-application-reactjs-untuk-cv-mahasiswa-mezuuu.git",
+    "headline": "Gammers Enthusiast | Game Programming Enthusiast",
+    "short_bio": "Mahasiswa UMS dengan minat pada pengembangan Game",
+    "location": "Surakarta, Jawa Tengah",
+    "portfolio_url": "https://github.com/mezuuu"
+  },
+
+  "skills": [
+    {
+      "id": 1,
+      "name": "Unity",
+      "category": "technical",
+      "level": "advanced",
+      "is_main": true,
+      "years_of_experience": 1,
+      "icon_url": "https://icon.icepanel.io/Technology/png-shadow-512/Unity.png",
+      "percentage": 73
+    },
+    {
+      "id": 2,
+      "name": "Blender",
+      "category": "technical",
+      "level": "advanced",
+      "is_main": true,
+      "years_of_experience": 1,
+      "icon_url": "https://icon.icepanel.io/Technology/svg/Blender.svg",
+      "percentage": 80
+    },
+    {
+      "id": 3,
+      "name": "Roblox Studio",
+      "category": "technical",
+      "level": "intermediate",
+      "is_main": false,
+      "icon_url": "https://icons.iconarchive.com/icons/simpleicons-team/simple/256/robloxstudio-icon.png",
+      "percentage": 90
+    }
+  ],
+
+  "experiences": [
+    {
+      "id": 101,
+      "title": "Game Development Intern",
+      "organization": "PT Citra International Digital",
+      "experience_type": "internship",
+      "start_date": "2024-07-01",
+      "end_date": "2025-11-26",
+      "is_current": false,
+      "description": "Mengembangkan game menggunakan Unity.",
+      "technologies": ["Unity", "Blender"],
+      "image_url": "https://media.licdn.com/dms/image/v2/D560BAQEORmaehbGIOw/company-logo_200_200/B56ZehN_kYH8AI-/0/1750756491256?e=2147483647&v=beta&t=ryutBZkRTgS4eD_Sc5YQL3tLsZoG2iJ0w9w3CHkP6UE"
+    },
+    {
+      "id": 102,
+      "title": "Frontend Developer Intern",
+      "organization": "PT Tiga Mutiara Prima",
+      "experience_type": "internship",
+      "start_date": "2023-01-01",
+      "end_date": "2023-12-31",
+      "is_current": false,
+      "description": "Membuat page login, admin, dan transaksi.",
+      "technologies": ["Node.js", "Tailwind CSS"],
+      "image_url": "https://images.glints.com/unsafe/320x0/glints-dashboard.oss-ap-southeast-1.aliyuncs.com/company-logo/6c6336f468f821e3df62ef1b51e94580.png"
+    },
+    {
+      "id": 103,
+      "title": "Roblox Game Developer",
+      "organization": "PT Point Digital Indonesia",
+      "experience_type": "project",
+      "start_date": "2025-10-24",
+      "end_date": null,
+      "is_current": true,
+      "description": "Membuat suatu map atau game di platform Roblox.",
+      "technologies": ["Roblox Studio", "Lua"],
+      "image_url": "https://media.licdn.com/dms/image/v2/D560BAQG2Mn3R-l1lDQ/company-logo_200_200/B56ZnCLlxyJwAI-/0/1759899445968?e=2147483647&v=beta&t=C4Bb8mWY-p2krsknR9hjHivzwMVbdcbUiWOsVxUt5rQ"
+    }
+  ],
+
+  "statistics": {
+    "views_count": 127,
+    "profile_complete_percent": 92
+  }
+}
