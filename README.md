@@ -1,16 +1,59 @@
-# React + Vite
+# ⚡ Portofolio Pribadi Neon (Neon Personal Portfolio)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website portofolio pribadi yang modern dan responsif, dibangun menggunakan **React**, **Vite**, dan **Tailwind CSS**. Proyek ini mengusung estetika *Cyberpunk/Neon* yang unik dengan pengelolaan konten yang dinamis berbasis data JSON.
 
-Currently, two official plugins are available:
+![Status Proyek](https://img.shields.io/badge/Status-Aktif-success) ![Tech Stack](https://img.shields.io/badge/Dibuat%20Dengan-React%20%7C%20Vite%20%7C%20Tailwind-blue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📅 Log Progres Pengembangan
 
-## React Compiler
+Proyek ini dikembangkan secara bertahap, berfokus pada performa, struktur komponen, dan peningkatan antarmuka (UI). Berikut adalah timeline pengembangan berdasarkan riwayat *commit*:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### **Fase 3: Pemolesan Visual & Logika Dinamis (27 Nov 2025)**
+* **✨ Fitur: Komponen Skills Dinamis**
+    * Memperbarui komponen `Skills` agar menerima data persentase secara dinamis dari JSON.
+    * Mengimplementasikan animasi transisi halus pada *progress bar* (dari 0% ke level target).
+* **🎨 Fitur: Peningkatan UI Neon**
+    * Menerapkan efek *Neon Glow* global (Tema Cyan, Ungu, Hijau) melalui CSS kustom.
+    * Memperbaiki gaya komponen `Experiences` agar lebih mudah dibaca dan menarik secara visual.
+    * Meningkatkan struktur komponen secara keseluruhan untuk `Profil`, `Skills`, dan `Experiences`.
+* **mj Fitur: Komponen Experience**
+    * Menambahkan bagian `Experiences` untuk menampilkan riwayat magang dan proyek.
+    * Mengintegrasikan logo organisasi/perusahaan dengan tata letak membulat.
 
-## Expanding the ESLint configuration
+### **Fase 2: Struktur Inti & Styling (26 Nov 2025)**
+* **🛠️ Fitur: Integrasi Tailwind**
+    * Menginstal dan mengonfigurasi **Tailwind CSS** untuk *styling* berbasis *utility*.
+    * Melakukan refaktor pada komponen `App` untuk mendukung sistem tata letak baru.
+* **Ns Fitur: Arsitektur Komponen**
+    * Membuat komponen `Profil` untuk bagian *hero* (beranda).
+    * Menetapkan struktur data awal untuk profil pengguna dan keahlian di `data.json`.
+* **🚀 Fitur: Inisialisasi Proyek**
+    * Menginisialisasi proyek menggunakan **Vite + React**.
+    * Migrasi data mentah ke struktur direktori baru.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### **Fase 1: Persiapan Data (26 Nov 2025)**
+* **O Setup Awal**
+    * Membuat file JSON awal untuk memusatkan informasi profil (Nama, NIM, Bio) dan data pengalaman.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+* **Core:** React.js (v19), Vite
+* **Styling:** Tailwind CSS (v3), Custom CSS (Efek Neon)
+* **Ikon:** React Icons
+* **Sumber Data:** JSON (Lokal)
+
+## wm Struktur Proyek
+
+```bash
+src/
+├── assets/          # Gambar statis (foto profil, logo)
+├── components/      # Komponen React
+│   ├── Profil.jsx       # Bagian Hero/Bio (Tema Cyan)
+│   ├── Skills.jsx       # Bar Skill Dinamis (Tema Ungu)
+│   └── Experiences.jsx  # Timeline Riwayat (Tema Hijau)
+├── data/            # data.json (Sumber Konten)
+├── index.css        # Gaya Global & Kelas Utilitas Neon
+├── App.jsx          # Tata Letak Utama
+└── main.jsx         # Entry Point Aplikasi
